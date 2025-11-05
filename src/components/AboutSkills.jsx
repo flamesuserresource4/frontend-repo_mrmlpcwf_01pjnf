@@ -28,11 +28,11 @@ const AboutSkills = () => {
 
             <div className="mt-6 flex flex-col gap-4">
               <div className="flex items-center gap-3 text-zinc-300">
-                <Award className="h-5 w-5 text-emerald-400" />
+                <Award className="h-5 w-5 text-violet-300" />
                 <span>Track record of shipping polished features quickly</span>
               </div>
               <div className="flex items-center gap-3 text-zinc-300">
-                <Award className="h-5 w-5 text-emerald-400" />
+                <Award className="h-5 w-5 text-violet-300" />
                 <span>Focus on performance, accessibility, and DX</span>
               </div>
             </div>
@@ -51,14 +51,14 @@ const AboutSkills = () => {
                 <div key={name} className="">
                   <div className="mb-2 flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                      <Icon className="h-5 w-5 text-emerald-400" />
+                      <Icon className="h-5 w-5 text-violet-300" />
                       <span>{name}</span>
                     </div>
                     <span className="text-sm text-zinc-400">{level}%</span>
                   </div>
                   <div className="h-2 w-full rounded-full bg-zinc-800">
                     <div
-                      className="h-2 rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400"
+                      className="h-2 rounded-full bg-gradient-to-r from-fuchsia-400 to-violet-500"
                       style={{ width: `${level}%` }}
                     />
                   </div>

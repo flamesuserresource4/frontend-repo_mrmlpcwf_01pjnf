@@ -97,7 +97,7 @@ const Projects = () => {
                 <div className="mt-5 flex items-center gap-3">
                   <a
                     href={p.demo}
-                    className="inline-flex items-center gap-1.5 rounded-md bg-emerald-500/90 px-3 py-1.5 text-sm font-medium text-white transition hover:bg-emerald-500"
+                    className="inline-flex items-center gap-1.5 rounded-md bg-gradient-to-r from-fuchsia-500 to-violet-500 px-3 py-1.5 text-sm font-medium text-white transition hover:from-fuchsia-400 hover:to-violet-400"
                   >
                     <ExternalLink className="h-4 w-4" /> Live
                   </a>

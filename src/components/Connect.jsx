@@ -23,7 +23,7 @@ const Experience = () => {
       <div className="mt-5 flex flex-wrap gap-3">
         <a
           href="mailto:hello@example.com?subject=Request%20Resume&body=Hi%20Prathamesh%2C%20please%20share%20your%20latest%20resume."
-          className="inline-flex items-center gap-2 rounded-md bg-emerald-500 px-4 py-2 font-medium text-white transition hover:bg-emerald-400"
+          className="inline-flex items-center gap-2 rounded-md bg-gradient-to-r from-fuchsia-500 to-violet-500 px-4 py-2 font-medium text-white transition hover:from-fuchsia-400 hover:to-violet-400"
         >
           <Download className="h-4 w-4" /> Request Resume
         </a>
@@ -62,7 +62,7 @@ const ContactForm = () => {
             required
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="mt-1 w-full rounded-md border border-white/10 bg-zinc-900/60 px-3 py-2 outline-none ring-emerald-500/30 placeholder:text-zinc-500 focus:ring"
+            className="mt-1 w-full rounded-md border border-white/10 bg-zinc-900/60 px-3 py-2 outline-none ring-fuchsia-400/30 placeholder:text-zinc-500 focus:ring"
             placeholder="Your name"
           />
         </div>
@@ -73,7 +73,7 @@ const ContactForm = () => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="mt-1 w-full rounded-md border border-white/10 bg-zinc-900/60 px-3 py-2 outline-none ring-emerald-500/30 placeholder:text-zinc-500 focus:ring"
+            className="mt-1 w-full rounded-md border border-white/10 bg-zinc-900/60 px-3 py-2 outline-none ring-fuchsia-400/30 placeholder:text-zinc-500 focus:ring"
             placeholder="you@example.com"
           />
         </div>
@@ -84,14 +84,14 @@ const ContactForm = () => {
             rows={5}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="mt-1 w-full rounded-md border border-white/10 bg-zinc-900/60 px-3 py-2 outline-none ring-emerald-500/30 placeholder:text-zinc-500 focus:ring"
+            className="mt-1 w-full rounded-md border border-white/10 bg-zinc-900/60 px-3 py-2 outline-none ring-fuchsia-400/30 placeholder:text-zinc-500 focus:ring"
             placeholder="Tell me about your project…"
           />
         </div>
       </div>
       <button
         type="submit"
-        className="mt-5 inline-flex items-center gap-2 rounded-md bg-emerald-500 px-5 py-2.5 font-medium text-white transition hover:bg-emerald-400"
+        className="mt-5 inline-flex items-center gap-2 rounded-md bg-gradient-to-r from-fuchsia-500 to-violet-500 px-5 py-2.5 font-medium text-white transition hover:from-fuchsia-400 hover:to-violet-400"
       >
         <Mail className="h-4 w-4" /> Send
       </button>
